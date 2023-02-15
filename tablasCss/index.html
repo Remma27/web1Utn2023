@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas CSS</title>
+    <style>
+        td{
+            background-color: aqua;
+        }
+        table{
+            border-color: chartreuse;
+            border-width: 5px;
+            border-style: dotted;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <H1>TABLAS</H1>
+    <table border="1">
+        
+        <tr>
+            <th style="background-color: blueviolet; color: white;">Nombre</th>
+            <th>Apellido 1</th>
+            <th>Apellido 2</th>
+        </tr>
+        <tr>
+            <td>Emmanuel</td>
+            <td>Rodriguez</td>
+            <td>Solano</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="colFechaNac">Fecha de Nacimiento</td>
+            <td>27-07-2003</td>
+        </tr>
+        <tr>
+            <td>col</td>
+            <td>col</td>
+            <td rowspan="2">col</td>
+        </tr>
+        <tr>
+            <td>col</td>
+            <td>col</td>
+        </tr>
+    </table>
+
+    <table border="1" class="tabla1">
+        
+        <tr>
+            <th style="background-color: blueviolet; color: white;">Nombre</th>
+            <th>Apellido 1</th>
+            <th>Apellido 2</th>
+        </tr>
+        <tr>
+            <td>Emmanuel</td>
+            <td>Rodriguez</td>
+            <td>Solano</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="colFechaNac">Fecha de Nacimiento</td>
+            <td>27-07-2003</td>
+        </tr>
+        <tr>
+            <td>col</td>
+            <td>col</td>
+            <td rowspan="2">col</td>
+        </tr>
+        <tr>
+            <td>col</td>
+            <td>col</td>
+        </tr>
+    </table>
+
+    <table border="1" class="tabla2">
+        
+        <tr>
+            <th style="background-color: blueviolet; color: white;">Nombre</th>
+            <th>Apellido 1</th>
+            <th>Apellido 2</th>
+        </tr>
+        <tr>
+            <td>Emmanuel</td>
+            <td>Rodriguez</td>
+            <td>Solano</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="colFechaNac">Fecha de Nacimiento</td>
+            <td>27-07-2003</td>
+        </tr>
+        <tr>
+            <td>col</td>
+            <td>col</td>
+            <td rowspan="2">col</td>
+        </tr>
+        <tr>
+            <td>col</td>
+            <td>col</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
