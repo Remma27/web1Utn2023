@@ -1,0 +1,21 @@
+.nav{
+    background-color: steelblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav>li{
+    display: inline;
+    border-right: 1px solid;
+    padding: 0px 5px;
+}
+
+ul.nav>li>a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.parrafoClass{
+    background-color: deeppink;
+    }

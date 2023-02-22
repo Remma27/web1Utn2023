@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/formularios.css">
+</head>
+<body>
+    <form action="" method="get">
+        <div class="input">
+            <label for="id">Nombre: </label>
+            <input type="text" name="id" id="id" placeholder="Digite su nombre: " maxlength="30" pattern="">
+        </div>
+
+        <div class="input">
+            <label for="number">Numero: </label>
+            <input type="number" name="number" id="number" placeholder="Digite su numero: ">
+        </div>
+
+        <div class="input">
+            <label for="pass">Contrasena: </label>
+            <input type="password" name="pass" id="pass">`
+        </div>
+
+        <div class="input">
+            <label for="color">Color: </label>
+            <input type="color" name="color" id="color">`
+        </div>
+
+        <div class="input">
+            <label for="fecha">fecha: </label>
+            <input type="date" name="fecha" id="fecha">`
+        </div>
+
+        <div class="input">
+            <label for="hora">Hora: </label>
+            <input type="time" name="hora" id="hora">`
+        </div>
+
+        <div class="input">
+            <label for="correo">Correo Electronico: </label>
+            <input type="email" name="correo" id="correo">`
+        </div>
+
+        <div class="input">
+            <label for="url">url: </label>
+            <input type="url" name="url" id="url">`
+        </div>
+
+        <div class="input">
+            <label for="file">Archivo: </label>
+            <input type="file" name="file" id="file">`
+        </div>
+
+        <div class="input">
+            <label for="range">Edad: </label>
+            <input type="range" name="edad" id="edad" max="90" min="15">
+        </div>
+
+        <div class="input">
+            <input type="hidden" name="codigo" id="codigo">`
+        </div>
+
+        <div class="input">
+            <label for="descripcion">Descripcion: </label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="input">
+            <label for="radio">Pizza</label>
+            <input type="radio" name="comida" value="1">
+
+            <label for="radio">Hamburguesas</label>
+            <input type="radio" name="comida" value="1">
+
+            <label for="radio">Tacos</label>
+            <input type="radio" name="comida" value="1">
+
+            <label for="radio">Perros</label>
+            <input type="radio" name="comida" value="1">
+        </div>
+        
+        <div class="input">
+            <label for="checkbox">Natural</label>
+            <input type="checkbox" name="bebida" value="1">
+
+            <label for="checkbox">Gaseosa</label>
+            <input type="checkbox" name="bebida" value="1">
+
+            <label for="checkbox">Alcoholicas</label>
+            <input type="checkbox" name="bebida" value="1">
+
+            <label for="checkbox">Otros</label>
+            <input type="checkbox" name="bebida" value="1">
+        </div>
+
+        <div class="input">
+            <label for="marca">Escoja Marca: </label>
+            <select name="marca" id="marca">
+                <option value="1">Toyota</option>
+                <option value="1">Nissan</option>
+                <option value="1" selected>Mitsubishi</option>
+                <option value="1">Audi</option>
+                <option value="1">BMW</option>
+            </select>
+        </div>
+
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+    
+</body>
+</html>
