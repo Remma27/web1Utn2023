@@ -1,0 +1,33 @@
+.formulario{
+    display: grid;
+    place-items: center;
+    width: 550px;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-bottom: 30%;
+}
+
+button{
+    width: 300px;
+    margin-bottom: 2%;
+}
+
+.forgot{
+    text-decoration: none;
+    color: gray;
+    float: right;
+}
+
+.caja{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px;
+    margin: calc(50vh - 220px)auto;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logos{
+    margin-right: 10%;
+}

@@ -1,0 +1,109 @@
+body{
+    background-color: #b3e5fc;
+}
+
+.wrapper{
+    width: 611px;
+    height: 400px;
+    margin: 80px auto 0;
+}
+
+.container{
+    float: right;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.part{
+    float: left;
+    height: 100%;
+}
+
+.card-datails{
+    padding: 48px 40px 0;
+    width: 60%;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 14px 0 10px 49px;
+    letter-spacing: 1px;
+    margin-left: -52px;
+    width: 330px;
+}
+
+.bg{
+    width: 40%;
+    background-image: url("https://s13.postimg.org/d8emjhccn/image.jpg");
+    background-size: 121%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.group{
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+label{
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    float: left;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border: 0;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.card-number{
+    border-bottom: 1px solid gray;
+    margin-top: 32px;
+}
+
+.card-expiry{
+    border-bottom: 0;
+}
+
+.input-item{
+    float: left;
+}
+
+.expiry{
+    width: 200px;
+}
+
+
+.csv{
+    width: 80px;
+    position: relative;
+}
+
+a{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    text-decoration: none;
+    color: blue;
+}
+
+label{
+    width: 100%;
+}

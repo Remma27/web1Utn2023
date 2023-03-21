@@ -1,0 +1,94 @@
+.parra01 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px 5px 10px 5px;
+  color: white;
+}
+
+.form {
+  width: 340px;
+  height: 540px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px white;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all;
+  border-bottom: 2px solid black;
+}
+
+input:focus {
+  border-bottom: 2px solid black;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: black;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  border: 2px solid black;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all;
+}
+
+button:hover {
+  background: black;
+  color: black;
+}
+
+.footer {
+  font-weight: 700;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+}
+.logos {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  display: flex;
+  height: 70px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+nav a {
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+nav a:hover {
+  color: grey;
+}
