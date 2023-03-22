@@ -1,0 +1,68 @@
+.iconosIzquierda{
+    display: inline-flex;
+    color: #79716F;
+}
+
+.header1{
+    background-color: #FFF1F0;
+    padding-top: 1%;
+}
+
+.iconosDerecha{
+    padding-left: 8%;
+    color: #FAA294;
+}
+
+.iconosIzquierda2{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #79716F;
+}
+
+.titulo{
+    display: inline-flex;
+    padding-top: 2%;
+}
+
+.spa{
+    color: black;
+    padding-right: 5%;
+    padding-left: 9%;
+}
+
+.center{
+    color: #FAA294;
+}
+
+.boton{
+    background-color: #FAA294;
+    color: white;
+}
+
+.headerCentro{
+    display: inline-flex;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+.header2{
+    background-color: white;
+}
+
+.imagen{
+    opacity: 20%;
+    position: relative;
+}
+
+section{
+    background-color: black;
+}
+
+.texto{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 70%;
+    left: 25%;
+    opacity: 100%;
+}
