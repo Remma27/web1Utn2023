@@ -61,16 +61,16 @@ console.log(pies);
 
 //Agregue una nueva propiedad a su pingüino llamada favoriteFoods y 
 //configúrela igual a una matriz que contiene una lista de tres cadenas
-pinguinos.favoriteFoods = ["pescado", "calamares", "krill"];
+pinguinos.favoriteFoods = ["pescado", "calamares", "camarones"];
 var miPinguino = { 
-    name: "Pingu", 
-    origin: "Pingu", 
+    name: "Emma", 
+    origin: "Barranca", 
     canFly: false, 
     sayHello: function() { 
-      console.log("Kweh kweh!"); 
+      console.log("Hola"); 
     } 
   }; 
-  miPinguino.favoriteFoods = ["pescado", "calamares", "krill"];
+  miPinguino.favoriteFoods = ["pescado", "calamares", "camarones"];
   
 //Accede a la segunda comida favorita de sus pingüinos e imprímela en la 
 //consola usando console.log () 
@@ -85,5 +85,5 @@ pinguinos.favoriteFoods[pinguinos.favoriteFoods.length - 1] = "piñas";
 //favorita de sus pingüinos e imprima cada una en la consola. 
 for (var i = 0; i < pinguinos.favoriteFoods.length; i++) {
     console.log(pinguinos.favoriteFoods[i]);
-  }
+  };
   
