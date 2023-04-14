@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INICIO DE SESION</title>
+    <title>CONOZCANOS</title>
     <link rel="shortcut icon" href="imgs/logo.png" type="image/png">
-    <link rel="stylesheet" href="css/registro.css" />
+    <link rel="stylesheet" href="css/conozcanos.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="stylesheet"
@@ -16,7 +17,7 @@
       referrerpolicy="no-referrer"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
-  <body class="general">
+  <body bgcolor="black">
     <header>
       <div class="row">
         <div class="col col-md-4 p-4">
@@ -33,43 +34,59 @@
               <li><a class="dropdown-item" href="pedales.html">Pedales</a></li>
               <li><a class="dropdown-item" href="amplis.html">Amplificadores</a></li>
               <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
-              <li><a class="dropdown-item" href="bajos.html">Bajos</a></li>
+              <li><a class="dropdown-item" href="bajos.html">Bajos</a></l  i>
             </ul>
           </div>
-          <a href="conozcanos.html"><button type="button" class="btn btn-dark" style="background-color: black; border-color: black;">Conozcanos</button></a>
           <a href="retroali.html"><button type="button" class="btn btn-dark" style="background-color: black; border-color: black;">Retroalimentación</button></a>
+          <a href="iniciosesion.html"><button type="button" class="btn btn-dark" style="background-color: black; border-color: black;">Iniciar Sesion</button></a>
           <a href="index.html"><button type="button" class="btn btn-dark" style="background-color: black; border-color: black;">Inicio</button></a>
         </div>
     </header>
     <section>
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
-          <div class="col col-md-2"></div>
-          <div class="col col-md-8">
-            <h3 class="parra01">
-              En caso de que ya tengas una cuenta creada, podes iniciar sesion
-              con los datos de tu cuenta desde esta seccion
+          <div class="col col-md-3"></div>
+          <div class="col col-md-6">
+            <h3 class="parrafo">
+              Estas son las personas que estan detras del trabajo hecho en CR
+              INSTRUMENTS <br />
+              Puede ponerse en contacto con ellos para lo que necesite, los
+              atenderan con mucho gusto.
             </h3>
-            <div class="form">
-              <form>
-                <div class="mb-3">
-                  <label for="usuario" class="form-label">Nombre de usuario</label>
-                  <input type="text" class="form-control" id="usuario" required>
-                </div>
-                <div class="mb-3">
-                  <label for="contrasena" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="contrasena" required>
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="recordar">
-                  <label class="form-check-label" for="recordar">Recordarme</label>
-                  <a href="registro.html" class="registro"><p>Si no tiene cuenta, regístrese aquí</p></a>
-                </div>
-                <button type="submit" class="btn btn-primary" id="iniciar-sesion" style="width: 100%;" disabled>Iniciar Sesión</button>
-              </form>                                      
+            <div class="cuadro">
+              <div>
+                <img src="imgs/Jose.jpg" alt="Jose" /> <br />
+                <br />
+                Nombre: Jose Nunez <br />
+                Correo electronico: jonunez@gmail.com <br />
+                Numero de telefono: 62602552 <br />
+                Puesto de trabajo: Vendedor <br />
+              </div>
+              <br />
+              <hr />
+              <br />
+              <div>
+                <img src="imgs/Alejandro.jpg" alt="Alejandro" /> <br />
+                <br />
+                Nombre: Alejandro Rodriguez <br />
+                Correo electronico: alerodriguez@gmail.com <br />
+                Numero de telefono: 84452876 <br />
+                Puesto de trabajo: Guitarrista y Asesor de ventas <br />
+              </div>
+              <br />
+              <hr />
+              <br />
+              <div>
+                <img src="imgs/Emmanuel.jpg" alt="Emmanuel" /> <br />
+                <br />
+                Nombre: Emmanuel Rodriguez <br />
+                Correo electronico: emmarodriguez@gmail.com <br />
+                Numero de telefono: 72149100 <br />
+                Puesto de trabajo: Encargado de Marketing <br />
+              </div>
             </div>
           </div>
-          <div class="col col-md-2"></div>
+          <div class="col col-md-3"></div>
         </div>
       </div>
     </section>
@@ -90,6 +107,5 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="js/iniciosesion.js"></script>
   </body>
 </html>

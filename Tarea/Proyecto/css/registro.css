@@ -1,0 +1,47 @@
+header {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.parra01 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+footer{
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.iconosDerecha{
+  float: right;
+  padding-top: 5%;
+  color: white;
+  }
+  
+.form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 4%;
+  color: black;
+}
+
+section {
+  background-color: black;
+}
+
+.general{
+  background-color: black;
+}
+
+.registro{
+  text-decoration: none;
+  color: gray;
+  float: right;
+}

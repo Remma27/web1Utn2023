@@ -1,0 +1,49 @@
+
+header{
+    background-color: black;
+    color: white;
+    height: 100%;
+  }
+
+.general{
+    background-color: black;
+}
+
+
+.imas{
+    padding-top: 10%;
+    border-radius: 1px solid black;
+    width: 100%;
+}
+
+
+
+.ima4{
+    width: 100%;
+
+}
+
+.ima5{
+ width: 100%;
+}
+
+.ima8{
+    width: 100%;
+    
+}
+
+.ima9{
+    width: 100%;
+    
+}
+
+footer{
+    height: 100px;
+    color: #ffffff;
+}
+
+.iconosDerecha{
+    float: right;
+    padding-top: 5%;
+    color: #ffffff;
+}
