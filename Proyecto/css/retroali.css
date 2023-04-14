@@ -1,0 +1,21 @@
+.boton{
+    border-radius: 5px solid white;
+    margin-top: 10%;
+    margin-left: 27%;
+}
+header{
+    background-color: #000000;
+    color: white;
+    height: 100%;
+}
+footer{
+    height: 100px;
+    color: #ffffff;
+
+}
+
+.iconosDerecha{
+    float: right;
+    padding-top: 5%;
+    color: #ffffff;
+}

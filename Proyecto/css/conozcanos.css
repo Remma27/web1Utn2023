@@ -1,59 +1,37 @@
-.footer {
-  font-weight: 700;
-  font-family: sans-serif;
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: 120px;
-  padding: 10px;
-}
-.logos {
-  width: 100px;
-  height: 100px;
-  float: right;
-}
 
-a {
-  text-decoration: none;
-  color: white;
-}
-header {
-  display: flex;
-  height: 70px;
-  background-color: black;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-}
-nav a {
-  font-weight: 700;
-  padding-right: 5px;
-}
-
-nav a:hover {
-  color: grey;
-}
-
-.parra01 {
+.parrafo {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 10px 5px 10px 5px;
+  padding: 10px;
+  text-align: center;
   color: white;
 }
 
-.div {
-  width: 400px;
-  height: 730px;
+.cuadro {
+  width: 450px;
+  height: 870px;
   background: white;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px white;
-  margin: calc(50vh - 220px) auto;
   padding: 20px 30px;
-  max-width: calc(100vw - 40px);
   box-sizing: border-box;
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+section{
+  background-color: black;
+}
+
+html{
+  background-color: black;
+}
+
+footer{
+  background-color: black;
 }

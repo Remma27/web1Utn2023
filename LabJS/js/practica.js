@@ -23,10 +23,12 @@ var fred = {
   },
 };
 
-//Cree un arreglo con los 3 pingüinos adentro. (recuerden que pueden asignar valores de variables y no quemar valores dentro del arreglo.
+//Cree un arreglo con los 3 pingüinos adentro. (recuerden que pueden asignar valores 
+//de variables y no quemar valores dentro del arreglo.
 var pinguinos = [gunter, ramon, fred];
 
-//Escriba un ciclo for para iterar a través de cada pingüino en la matriz e imprima el valor de la propiedad del nombre de cada pingüino en la consola.
+//Escriba un ciclo for para iterar a través de cada pingüino en la matriz 
+//e imprima el valor de la propiedad del nombre de cada pingüino en la consola.
 for (var i = 0; i < pinguinos.length; i++) {
   console.log(pinguinos[i].name);
 }
@@ -34,7 +36,8 @@ for (var i = 0; i < pinguinos.length; i++) {
 //Imprima la longitud de la matriz de pingüinos en la consola.
 console.log(pinguinos.length);
 
-//Escriba un ciclo for para iterar a través de cada pingüino en la matriz y agregue una nueva propiedad a cada pingüino llamada numberOfFeet con un valor aleatorio del 1 al 5
+//Escriba un ciclo for para iterar a través de cada pingüino en la matriz \
+//y agregue una nueva propiedad a cada pingüino llamada numberOfFeet con un valor aleatorio del 1 al 5
 for (var i = 0; i < pinguinos.length; i++) {
   pinguinos[i].numberOfFeet = Math.floor(Math.random() * 5) + 1;
 }
@@ -59,31 +62,30 @@ for (var i = 0; i < pinguinos.length; i++) {
 }
 console.log(pies);
 
-//Agregue una nueva propiedad a su pingüino llamada favoriteFoods y 
+//Agregue una nueva propiedad a su pingüino llamada favoriteFoods y
 //configúrela igual a una matriz que contiene una lista de tres cadenas
 pinguinos.favoriteFoods = ["pescado", "calamares", "camarones"];
-var miPinguino = { 
-    name: "Emma", 
-    origin: "Barranca", 
-    canFly: false, 
-    sayHello: function() { 
-      console.log("Hola"); 
-    } 
-  }; 
-  miPinguino.favoriteFoods = ["pescado", "calamares", "camarones"];
-  
-//Accede a la segunda comida favorita de sus pingüinos e imprímela en la 
-//consola usando console.log () 
+var miPinguino = {
+  name: "Emma",
+  origin: "Barranca",
+  canFly: false,
+  sayHello: function () {
+    console.log("Hola");
+  },
+};
+miPinguino.favoriteFoods = ["pescado", "calamares", "camarones"];
+
+//Accede a la segunda comida favorita de sus pingüinos e imprímela en la
+//consola usando console.log ()
 console.log(pinguinos.favoriteFoods[1]);
 
-//Sin modificar nada de su código anterior, escriba una nueva línea de código 
-//que cambie el valor del último elemento de la lista a "piñas" 
-//(sobrescribiendo el valor anterior). 
+//Sin modificar nada de su código anterior, escriba una nueva línea de código
+//que cambie el valor del último elemento de la lista a "piñas"
+//(sobrescribiendo el valor anterior).
 pinguinos.favoriteFoods[pinguinos.favoriteFoods.length - 1] = "piñas";
 
-//Escriba un cilo for para recorrer cada comida en la propiedad de comida 
-//favorita de sus pingüinos e imprima cada una en la consola. 
+//Escriba un cilo for para recorrer cada comida en la propiedad de comida
+//favorita de sus pingüinos e imprima cada una en la consola.
 for (var i = 0; i < pinguinos.favoriteFoods.length; i++) {
-    console.log(pinguinos.favoriteFoods[i]);
-  };
-  
+  console.log(pinguinos.favoriteFoods[i]);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS FORM VALIDACION</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="mensaje('Hola')">
+    <form onsubmit="return validar()">
+        <div class="caja">
+            <label for="">Nombre:</label>
+            <input type="text" id="nombre">
+        </div>
+        <div class="caja">
+            <label for="">Apellido 1:</label>
+            <input type="text" id="apellido1">
+        </div>
+        <div class="caja">
+            <label for="">Apellido 2:</label>
+            <input type="text" id="apellido2">
+        </div>
+        <div class="caja">
+            <label for="">Edad:</label>
+            <input type="text" id="edad">
+        </div>
+        <div class="caja">
+            <label for="">Color Favorito:</label>
+            <select id="color">
+                <option value="">Seleccione una opcion</option>
+                <option value="1">Rojo</option>
+                <option value="2">Azul</option>
+                <option value="3">Amarillo</option>
+            </select>
+        </div>
+        <div class="caja">
+            <label for="">Correo:</label>
+            <input type="text" id="correo">
+        </div>
+        <input type="submit" value="Guardar">
+    </form>
+    <button onclick="alert(calcular(5,15))">calcular</button>
+    <script src="JS/index.js"></script>
+</body>
+</html>
